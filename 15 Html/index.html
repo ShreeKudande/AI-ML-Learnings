@@ -1,0 +1,237 @@
+<!-- HTML - HyperText Markup Language [structure & formatting] -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hello World!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa corporis atque, quod perspiciatis inventore repudiandae vel, debitis deserunt consequuntur numquam recusandae eius magnam quidem soluta! <b>Impedit doloremque suscipit fugiat.</b> Rem!</p>
+
+    <h1>Hey!</h1>
+    <h2>Hey!</h2>
+    <h3>Hey!</h3>
+    <h4>Hey!</h4>
+    <h5>Hey!</h5>
+    <h6>Hey!</h6>   
+
+    <ul>
+        <li>Bread</li>
+        <li>Butter</li>
+        <li>Jam</li>
+    </ul>
+
+    <ol>
+        <li>Physics</li>
+        <li>Chemistry</li>
+        <li>Math</li>
+    </ol>
+
+    <ol type="A">
+        <li>Physics</li>
+        <li>Chemistry</li>
+        <li>Math</li>
+    </ol>
+
+    <a href="https://google.com">Google</a>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzT0KCj3xFEEmbs8fS7andoLlj_eX8Yv3zA&s" alt="Apple Image">
+
+    <hr>
+    
+    <p>Twinkle Twinkle little star <br> how i wonder what you are</p>
+    <i>Italic</i>
+    <b>Bold</b>
+    <u>Underline</u>
+
+    <!--This is an html Comment-->
+
+    <!--MDN for documentation-->
+
+    <!-- Html is not Case Sensitive <p> & <P> are same -->
+<!-- 
+    Inline vs Block Elements
+    Inline > Takes up only necessary width eg. <a>, <img>
+    Block > Takes up the full-width avaiable (whole block) eg. <h1>, <p> -->
+<!-- 
+    Div > div is a container used to hold other html elements or group elements together its a block level element -->
+    <div></div>
+<!-- 
+    Span > span is also a generic container used to hold other html elements or group elements together its a inline element -->
+    <span></span>
+
+    <!-- Subscript & Superscript -->
+     <h3>h<sub>2</sub>O</h3>
+     <h3>a<sup>2 </sup>= b<sup>2</sup>+ c<sup>2</sup></h3>
+     <!-- 
+        Semantic Markup > it is the markup that relates to the meaning of content 
+        - meaningfull/ layout . structured
+        - seo friendly
+        - readable + screen readers
+        - UX improves
+        
+        semantic > h1, p, img, header, footer, main, section
+        non-semantic > div, span
+        -->
+        <header>
+            <nav>navigation</nav>
+        </header>
+        <main>
+            <section>Group related content</section>
+        </main>
+        <footer></footer>
+        
+        <article>articles and other</article>
+        <aside>related links etc</aside>
+        
+        <!-- Html Entities -->
+        <h1>a<b</h1>
+        <!-- starts with & and ends with ; -->
+        <h1>a&lt;b</h1>
+        <p>apna &nbsp;    college</p>
+        <!-- nbsp > non breaking space     -->
+        <!-- < -- &lt; less then -->
+        <!-- > -- &gt; greater then-->
+
+        <h1>&hearts;</h1>
+        <h1>&amp;</h1>
+        <h1>&quot;</h1>
+        <h1>&bigstar;</h1>
+        <h1>&#9729;</h1>
+
+        <!-- Emmet > visit emmet.io -->
+        <!-- the essential toolkit for web-developers/ plugin type/ used to create shortcuts for big codes like ! for html boilerplate-->
+        <!-- Abbreviation means shortform -->
+        
+        <!-- Parent|Child|Siblings -->
+
+        <!-- nav>ul>li -->
+        <nav>
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
+
+        <!-- p>div -->
+        <p>
+            <div></div>
+        </p>
+
+        <!-- div+p+bq -->
+         <div></div>
+         <p></p>
+         <blockquote></blockquote>
+
+         <!-- ul>li*5 -->
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+         <!-- goo too emmet.io cheetsheet for more abbreviations -->
+
+
+         <h1>Understanding HTML 5</h1>
+         <h3>The term HTML5 is essentially a buzzword that refers to a set of modern web technologies. This includes the HTML Living Standard (new features, upgrades + other things/features not part of HTML), along with JavaScript APIs to enhance storage, multimedia, and hardware access.</h3>
+
+        <h5>HTML Standard [Living Standard > its update by time] > is a document that tells to the browser how HTML should work.</h5>
+        
+        <a href="https://blog.hubspot.com/blog/tabid/6307/bid/5847/a-marketer-s-guide-to-html5.aspx">Read : A Beginner's Guide to HTML5</a>
+
+        <table border="black">
+            <caption>Table Caption</caption>
+                <tr>
+                    <th>header 1</th>
+                    <th>header 2</th>
+                </tr>
+                <tr>
+                    <td>data 1</td>
+                    <td>data 2</td>
+                </tr>
+                <tr>
+                    <td>data 3</td>
+                    <td>data 4</td>
+                </tr>
+        </table>
+
+        <thead></thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+
+        <!-- rowspan & colspan -->
+
+        <form>
+            form content
+        </form>
+
+        <form action="/action">
+            
+            <input>
+            Username
+            <input type="text">
+            Password
+            <input type="password">
+            Number
+            <input type="number">
+            Checkbox
+            <input type="checkbox">
+            Button
+            <input type="button">
+            Time
+            <input type="time">
+            Color
+            <input type="color">
+        
+        <input type = "text" placeholder="Enter anything">
+
+        <br>
+        <label>
+            Username
+                <input type="text">
+        </label>
+        
+        <label for="user">Username :</label>
+        <input type="text" placeholder="Enter your name" id="user">
+        
+        <br>
+        <!-- Submits form data -->
+        <button>Submit</button>
+        <button type="submit">Submit</button>
+        <button type="button">Button</button>
+        <button type="reset">Reset</button>
+        </form>
+
+
+        <form action="https://www.youtube.com/results">
+            <input type="text" placeholder="Search in youtube" name="search_query">
+            <button>search</button>
+        </form>
+
+        <form action="/server">
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple">apple</label>
+        
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="apple">mango</label>
+        
+        <input type="radio" name="fruit" id="banana" value="banana">
+        <label for="apple">banana</label>
+        <button>submit</button>
+        
+        <br>
+        <label for="vol">Select your volume level : </label>
+        <input type="range" min="0" max="100" name="vol" step="5" value="70">
+        
+        <br>
+        <label for="feedback">Feedback :</label>
+        <textarea id="feedback" name="feedback" placeholder="write your feedback here"></textarea>
+        <button>Submit</button>
+        </form>
+
+    </body>
+</html> 

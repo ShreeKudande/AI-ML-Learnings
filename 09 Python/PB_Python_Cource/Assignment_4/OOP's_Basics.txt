@@ -1,0 +1,57 @@
+==================================================
+OBJECT-ORIENTED PROGRAMMING (OOP) IN PYTHON
+==================================================
+
+1. THE PERFECT DEFINITION
+--------------------------------------------------
+Object-Oriented Programming (OOP) is a programming paradigm (a programming style, method, or approach used to structure and organize a program's code to solve a problem) that organizes code into "objects"—which are custom data structures that combine data (attributes) and behavior (methods) into a single, reusable unit.
+
+
+2. THE CORE CONCEPT
+--------------------------------------------------
+Think of a Car Factory:
+* The Class (The Blueprint): The design on paper. It says a car has 
+  wheels and an engine. It is just a template.
+* The Object (The Real Thing): The actual car built from the blueprint 
+  (e.g., a Red Ferrari).
+
+
+3. PYTHON CODE EXAMPLE
+--------------------------------------------------
+Copy this code to run it:
+
+class Dog:
+    # This runs when you create a new object
+    def __init__(self, name, breed):
+        self.name = name   # Attribute (Data)
+        self.breed = breed # Attribute (Data)
+
+    # A Method (Behavior/Action)
+    def bark(self):
+        return f"{self.name} says Woof!"
+
+# Creating Objects (Instances)
+dog1 = Dog("Buddy", "Golden Retriever")
+dog2 = Dog("Rex", "German Shepherd")
+
+# Using the objects
+print(dog1.name)    # Output: Buddy
+print(dog2.bark())  # Output: Rex says Woof!
+
+
+4. KEY TERMS SIMPLIFIED
+--------------------------------------------------
+* Class:      The template or blueprint.
+* Object:     An instance created from the class.
+* Attribute:  Variables that hold data (e.g., name, color).
+* Method:     Functions inside a class that perform actions.
+* Self:       A reference to the specific object being used.
+
+
+5. THE 4 PILLARS OF OOP
+--------------------------------------------------
+1. Inheritance:   Reusing code from parent classes (Child uses Parent's code).
+2. Encapsulation: Hiding data inside an object so it stays safe.
+3. Polymorphism:  Different classes doing the same action in their own way.
+4. Abstraction:   Hiding complex logic and showing only the necessary features.
+
